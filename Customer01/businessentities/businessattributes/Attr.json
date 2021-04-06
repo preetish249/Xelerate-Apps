@@ -1,0 +1,36 @@
+{
+  "name": "Attr",
+  "type": "BIZATTRIBUTE",
+  "childs": [],
+  "tbId": "wt_tab_018_",
+  "dynamic": {
+    "lovids": [
+      {
+        "text": "Select LOV",
+        "value": ""
+      },
+      {
+        "text": "mmm",
+        "value": "mmm"
+      }
+    ]
+  },
+  "desc": "",
+  "dataAttrType": "ELEMENT",
+  "superType": "NONE",
+  "superName": "",
+  "relationType": "ONETOONE",
+  "pattern": "",
+  "properties": {
+    "minLen": "",
+    "maxLen": "",
+    "strValidationType": "NONE",
+    "lovId": "",
+    "minVal": "",
+    "maxVal": "",
+    "maxDecimals": "",
+    "minDate": "",
+    "maxDate": "",
+    "dataType": "STRING"
+  }
+}

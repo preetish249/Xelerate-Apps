@@ -1,0 +1,23 @@
+{
+  "name": "baCustStatus",
+  "type": "BIZATTRIBUTE",
+  "childs": [],
+  "tbId": "wt_tab_252_",
+  "desc": "",
+  "superType": "NONE",
+  "superName": "",
+  "relationType": "",
+  "properties": {
+    "dataType": "STRING",
+    "desc": "",
+    "smartType": "",
+    "drvType": "",
+    "customPattern": "",
+    "maxLen": "10",
+    "minLen": "",
+    "strValidationType": "",
+    "regExprsn": "",
+    "maxDate": "",
+    "minDate": ""
+  }
+}

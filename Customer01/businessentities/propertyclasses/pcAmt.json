@@ -1,0 +1,45 @@
+{
+  "name": "pcAmt",
+  "type": "BIZATRPROPCLASS",
+  "childs": [],
+  "tbId": "wt_tab_058_",
+  "dataType": "INTEGER",
+  "desc": "",
+  "smartType": "",
+  "drvType": "",
+  "customPattern": "",
+  "strValidationType": "",
+  "regExprsn": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "",
+  "timeBound": "",
+  "maxVal": 999999,
+  "maxDecimals": "",
+  "minVal": 0,
+  "dynamic": {},
+  "properties": {
+    "minLen": "",
+    "maxLen": "",
+    "strValidationType": "",
+    "lovId": "",
+    "minVal": 0,
+    "maxVal": 999999,
+    "maxDecimals": "",
+    "minDate": "",
+    "maxDate": "",
+    "options": [],
+    "lovids": [
+      {
+        "text": "Select LOV",
+        "value": ""
+      },
+      {
+        "text": "NewLov",
+        "value": "NewLov"
+      }
+    ],
+    "dataType": "INTEGER"
+  },
+  "pattern": ""
+}

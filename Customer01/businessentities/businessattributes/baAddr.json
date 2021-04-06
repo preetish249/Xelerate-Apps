@@ -1,0 +1,197 @@
+{
+  "name": "baAddr",
+  "type": "BIZATTRIBUTE",
+  "childs": [
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "",
+      "superType": "NONE",
+      "name": "addrLn1",
+      "inherited": false,
+      "properties": {
+        "name": "",
+        "dataType": "STRING",
+        "desc": "",
+        "smartType": "",
+        "drvType": "",
+        "customPattern": "",
+        "maxLen": "50",
+        "minLen": "",
+        "strValidationType": "NONE",
+        "regExprsn": "",
+        "maxDate": "",
+        "minDate": ""
+      },
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "",
+      "superType": "NONE",
+      "name": "addrLn2",
+      "inherited": false,
+      "properties": {
+        "name": "",
+        "dataType": "STRING",
+        "desc": "",
+        "smartType": "",
+        "drvType": "",
+        "customPattern": "",
+        "maxLen": "50",
+        "minLen": "",
+        "strValidationType": "",
+        "regExprsn": "",
+        "maxDate": "",
+        "minDate": ""
+      },
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "",
+      "superType": "NONE",
+      "name": "addrLn3",
+      "inherited": false,
+      "properties": {
+        "name": "",
+        "dataType": "STRING",
+        "desc": "",
+        "smartType": "",
+        "drvType": "",
+        "customPattern": "",
+        "maxLen": "50",
+        "minLen": "",
+        "strValidationType": "",
+        "regExprsn": "",
+        "maxDate": "",
+        "minDate": ""
+      },
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "",
+      "superType": "NONE",
+      "name": "city",
+      "inherited": false,
+      "properties": {
+        "name": "",
+        "dataType": "STRING",
+        "desc": "",
+        "smartType": "",
+        "drvType": "",
+        "customPattern": "",
+        "maxLen": "30",
+        "minLen": "",
+        "strValidationType": "",
+        "regExprsn": "",
+        "maxDate": "",
+        "minDate": ""
+      },
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "",
+      "superType": "NONE",
+      "name": "state",
+      "inherited": false,
+      "properties": {
+        "name": "",
+        "dataType": "STRING",
+        "desc": "",
+        "smartType": "",
+        "drvType": "",
+        "customPattern": "",
+        "maxLen": "30",
+        "minLen": "",
+        "strValidationType": "",
+        "regExprsn": "",
+        "maxDate": "",
+        "minDate": ""
+      },
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "",
+      "superType": "NONE",
+      "name": "country",
+      "inherited": false,
+      "properties": {
+        "name": "",
+        "dataType": "STRING",
+        "desc": "",
+        "smartType": "",
+        "drvType": "",
+        "customPattern": "",
+        "maxLen": "30",
+        "minLen": "",
+        "strValidationType": "",
+        "regExprsn": "",
+        "maxDate": "",
+        "minDate": ""
+      },
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "",
+      "superType": "NONE",
+      "name": "zipCode",
+      "inherited": false,
+      "properties": {
+        "name": "",
+        "dataType": "STRING",
+        "desc": "",
+        "smartType": "",
+        "drvType": "",
+        "customPattern": "",
+        "maxLen": "10",
+        "minLen": "",
+        "strValidationType": "Alpha Numeric",
+        "regExprsn": "",
+        "maxDate": "",
+        "minDate": ""
+      },
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "pcShortCode",
+      "superType": "BIZATRPROPCLASS",
+      "name": "addrType",
+      "inherited": true,
+      "properties": {},
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    }
+  ],
+  "tbId": "wt_tab_096_",
+  "desc": "",
+  "superType": "NONE",
+  "superName": "",
+  "relationType": "ONETOONE",
+  "properties": {},
+  "dynamic": {
+    "lovids": [
+      {
+        "text": "Select LOV",
+        "value": ""
+      },
+      {
+        "text": "mmm",
+        "value": "mmm"
+      }
+    ]
+  },
+  "dataAttrType": "NODE",
+  "pattern": ""
+}

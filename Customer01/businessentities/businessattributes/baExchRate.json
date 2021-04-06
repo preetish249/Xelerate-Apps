@@ -1,0 +1,23 @@
+{
+  "name": "baExchRate",
+  "type": "BIZATTRIBUTE",
+  "childs": [],
+  "tbId": "wt_tab_044_",
+  "desc": "",
+  "superType": "",
+  "superName": "",
+  "relationType": "",
+  "properties": {
+    "dataType": "INTEGER",
+    "desc": "",
+    "smartType": "",
+    "drvType": "",
+    "customPattern": "",
+    "maxLen": "",
+    "minLen": "",
+    "strValidationType": "",
+    "regExprsn": "",
+    "maxDate": "",
+    "minDate": ""
+  }
+}

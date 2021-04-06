@@ -1,0 +1,25 @@
+{
+  "name": "baCcy",
+  "desc": "",
+  "type": "BIZATTRIBUTE",
+  "childs": [],
+  "tbId": "wt_tab_073_",
+  "dynamic": {},
+  "dataAttrType": "ELEMENT",
+  "superType": "NONE",
+  "superName": "",
+  "relationType": "ONETOONE",
+  "pattern": "",
+  "properties": {
+    "minLen": "",
+    "maxLen": "",
+    "strValidationType": "NONE",
+    "lovId": "",
+    "minVal": "",
+    "maxVal": "",
+    "maxDecimals": "",
+    "minDate": "",
+    "maxDate": "",
+    "dataType": "STRING"
+  }
+}

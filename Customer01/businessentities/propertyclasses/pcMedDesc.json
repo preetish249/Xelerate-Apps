@@ -1,0 +1,42 @@
+{
+  "name": "pcMedDesc",
+  "type": "BIZATRPROPCLASS",
+  "childs": [],
+  "tbId": "wt_tab_065_",
+  "dataType": "STRING",
+  "desc": "",
+  "smartType": "",
+  "drvType": "",
+  "customPattern": "",
+  "strValidationType": "",
+  "regExprsn": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "",
+  "timeBound": "",
+  "dynamic": {},
+  "properties": {
+    "minLen": "",
+    "maxLen": "",
+    "strValidationType": "",
+    "lovId": "",
+    "minVal": "",
+    "maxVal": "",
+    "maxDecimals": "",
+    "minDate": "",
+    "maxDate": "",
+    "options": [],
+    "lovids": [
+      {
+        "text": "Select LOV",
+        "value": ""
+      },
+      {
+        "text": "NewLov",
+        "value": "NewLov"
+      }
+    ],
+    "dataType": "BINARY"
+  },
+  "pattern": ""
+}

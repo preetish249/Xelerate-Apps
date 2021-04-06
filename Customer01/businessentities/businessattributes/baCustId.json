@@ -1,0 +1,26 @@
+{
+  "name": "baCustId",
+  "type": "BIZATTRIBUTE",
+  "childs": [],
+  "tbId": "wt_tab_074_",
+  "desc": "",
+  "superType": "NONE",
+  "superName": "",
+  "relationType": "ONETOONE",
+  "properties": {
+    "dataType": "STRING",
+    "desc": "",
+    "smartType": "",
+    "drvType": "",
+    "customPattern": "",
+    "maxLen": "16",
+    "minLen": "",
+    "strValidationType": "NONE",
+    "regExprsn": "",
+    "maxDate": "",
+    "minDate": ""
+  },
+  "dynamic": {},
+  "dataAttrType": "ELEMENT",
+  "pattern": ""
+}

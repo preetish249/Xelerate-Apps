@@ -1,0 +1,16 @@
+{
+  "lables": [
+    {
+      "lblId": "USER_ID",
+      "lblDesc": "User Id",
+      "lblLang": "en"
+    },
+    {
+      "lblId": "PASSWORD",
+      "lblLang": "en",
+      "lblDesc": "Password"
+    }
+  ],
+  "type": "LABELS",
+  "name": "LABELS"
+}

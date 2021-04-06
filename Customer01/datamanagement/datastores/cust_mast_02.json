@@ -1,0 +1,37 @@
+{
+  "name": "cust_mast_02",
+  "type": "DATASTORE",
+  "tbId": "wt_tab_276_",
+  "columns": [
+    {
+      "name": "CUST_NUMBER",
+      "length": null,
+      "dataType": "INTEGER",
+      "pkColumn": true,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "CUST_ID",
+      "length": 30,
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "CUST_STATUS",
+      "length": 10,
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "dataType": "DATE",
+      "name": "CUST_SINCE",
+      "mandatory": true
+    }
+  ],
+  "constraints": []
+}

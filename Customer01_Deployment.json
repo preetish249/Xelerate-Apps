@@ -1,0 +1,18 @@
+{
+  "name": "Customer01",
+  "uiReq": "Y",
+  "uiType": "EMBEDDED",
+  "logPath": "",
+  "jndiName": "Customer01",
+  "firstScreen": "Login",
+  "lang": "en",
+  "Testing": {
+    "name": "Testing",
+    "uiReq": "Y",
+    "uiType": "EMBEDDED",
+    "logPath": "D:\\Logs",
+    "jndiName": "customer",
+    "firstScreen": "Login",
+    "lang": "en"
+  }
+}

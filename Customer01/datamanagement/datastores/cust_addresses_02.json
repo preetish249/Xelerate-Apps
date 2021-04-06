@@ -1,0 +1,64 @@
+{
+  "name": "cust_addresses_02",
+  "type": "DATASTORE",
+  "childs": [],
+  "tbId": "wt_tab_326_",
+  "columns": [
+    {
+      "dataType": "INTEGER",
+      "name": "CUST_PK",
+      "length": "",
+      "pkColumn": true,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "dataType": "STRING",
+      "name": "ADDR_TYPE",
+      "length": 10,
+	  "pkColumn": true,
+      "mandatory": true,
+	  "defValue": ""
+    },
+    {
+      "dataType": "STRING",
+      "name": "ADDR_LINE1",
+      "length": 50
+    },
+    {
+      "dataType": "STRING",
+      "name": "ADDR_LINE2",
+      "length": 50
+    },
+    {
+      "dataType": "STRING",
+      "name": "ADDR_LINE3",
+      "length": 50
+    },
+    {
+      "dataType": "STRING",
+      "name": "CITY",
+      "length": 50,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "name": "STATE",
+      "length": 50,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "name": "COUNTRY",
+      "length": 50,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "name": "ZIP_CODE",
+      "length": 10,
+      "mandatory": true
+    }
+  ],
+  "constraints": []
+}

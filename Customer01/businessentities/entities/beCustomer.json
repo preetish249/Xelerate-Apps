@@ -1,0 +1,996 @@
+{
+  "name": "beCustomer",
+  "type": "ENTITY",
+  "childs": [
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "",
+      "name": "customerDetails",
+      "desc": "Attribute",
+      "inherited": false,
+      "properties": {},
+      "superType": "NONE",
+      "childs": [
+        {
+          "type": "DATAATTRIBUTE",
+          "superName": "",
+          "name": "basicDetails",
+          "desc": "Attribute",
+          "inherited": false,
+          "properties": {},
+          "childs": [
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "pcLongCode",
+              "name": "custId",
+              "desc": "Attribute",
+              "inherited": false,
+              "properties": {
+                "name": "pcLongCode",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "16",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxVal": "",
+                "minVal": "",
+                "maxDecimals": "",
+                "maxDate": "",
+                "minDate": "",
+                "mandatory": "",
+                "timeBound": "",
+                "type": "BIZATRPROPCLASS",
+                "childs": [],
+                "tbId": "wt_tab_038_"
+              },
+              "superType": "BIZATRPROPCLASS",
+              "dataStoreId": "custMast",
+              "dataStoreColId": "CUST_ID"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "pcDt",
+              "name": "custSince",
+              "desc": "Attribute",
+              "inherited": false,
+              "properties": {
+                "name": "pcDt",
+                "dataType": "DATE",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxVal": "",
+                "minVal": "",
+                "maxDecimals": "",
+                "maxDate": "",
+                "minDate": "",
+                "mandatory": "",
+                "timeBound": "",
+                "type": "BIZATRPROPCLASS",
+                "childs": [],
+                "tbId": "wt_tab_043_"
+              },
+              "superType": "BIZATRPROPCLASS",
+              "dataStoreId": "custMast",
+              "dataStoreColId": "CUST_SINCE"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "pcShortCode",
+              "name": "custStatus",
+              "desc": "Attribute",
+              "inherited": false,
+              "properties": {
+                "name": "pcShortCode",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "10",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxVal": "",
+                "minVal": "",
+                "maxDecimals": "",
+                "maxDate": "",
+                "minDate": "",
+                "mandatory": "",
+                "timeBound": "",
+                "type": "BIZATRPROPCLASS",
+                "childs": [],
+                "tbId": "wt_tab_282_"
+              },
+              "superType": "BIZATRPROPCLASS",
+              "dataStoreId": "custMast",
+              "dataStoreColId": "CUST_STATUS"
+            }
+          ],
+          "services": [
+            {
+              "name": "Create",
+              "type": "CRUD_CREATE",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Update",
+              "type": "CRUD_UPDATE",
+              "enabled": false,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Query",
+              "type": "CRUD_QUERY",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Delete",
+              "type": "CRUD_DELETE",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Summary",
+              "type": "CUSTOMQUERY",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            }
+          ],
+          "dataStores": [
+            {
+              "dataStoreName": "cust_mast_02",
+              "dataStoreId": "custMast",
+              "parentDataStoreId": "custMast",
+              "relationWithParent": [],
+              "propagationColumns": [
+                {
+                  "toColumn": "CUST_NUMBER",
+                  "fromColumn": "CUST_NUMBER"
+                }
+              ]
+            }
+          ],
+          "relationType": "ONETOONE",
+          "superType": "NONE"
+        },
+        {
+          "type": "DATAATTRIBUTE",
+          "superName": "",
+          "name": "personalDetails",
+          "desc": "Attribute",
+          "inherited": false,
+          "properties": {},
+          "childs": [
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "baPersonName",
+              "name": "custName",
+              "desc": "Attribute",
+              "inherited": false,
+              "properties": {},
+              "superType": "BIZATTRIBUTE",
+              "childs": [
+                {
+                  "type": "DATAATTRIBUTE",
+                  "superName": "pcShortCode",
+                  "superType": "BIZATRPROPCLASS",
+                  "name": "personTitle",
+                  "inherited": true,
+                  "properties": {
+                    "minLen": "",
+                    "maxLen": "",
+                    "strValidationType": "NONE",
+                    "lovId": "",
+                    "minVal": "",
+                    "maxVal": "",
+                    "maxDecimals": "",
+                    "minDate": "",
+                    "maxDate": "",
+                    "options": [],
+                    "lovids": [
+                      {
+                        "text": "Select LOV",
+                        "value": ""
+                      },
+                      {
+                        "text": "NewLov",
+                        "value": "NewLov"
+                      }
+                    ],
+                    "dataType": "STRING"
+                  },
+                  "dataAttrType": "ELEMENT",
+                  "relationType": "ONETOONE"
+                },
+                {
+                  "type": "DATAATTRIBUTE",
+                  "superName": "pcShortDesc",
+                  "superType": "BIZATRPROPCLASS",
+                  "name": "firstName",
+                  "inherited": true,
+                  "properties": {
+                    "minLen": "",
+                    "maxLen": "",
+                    "strValidationType": "",
+                    "lovId": "",
+                    "minVal": "",
+                    "maxVal": "",
+                    "maxDecimals": "",
+                    "minDate": "",
+                    "maxDate": "",
+                    "options": [],
+                    "lovids": [
+                      {
+                        "text": "Select LOV",
+                        "value": ""
+                      },
+                      {
+                        "text": "NewLov",
+                        "value": "NewLov"
+                      }
+                    ],
+                    "dataType": "STRING"
+                  },
+                  "dataAttrType": "ELEMENT",
+                  "relationType": "ONETOONE"
+                },
+                {
+                  "type": "DATAATTRIBUTE",
+                  "superName": "pcShortDesc",
+                  "superType": "BIZATRPROPCLASS",
+                  "name": "middleName",
+                  "inherited": true,
+                  "properties": {},
+                  "dataAttrType": "ELEMENT",
+                  "relationType": "ONETOONE"
+                },
+                {
+                  "type": "DATAATTRIBUTE",
+                  "superName": "pcShortDesc",
+                  "superType": "BIZATRPROPCLASS",
+                  "name": "lastName",
+                  "inherited": true,
+                  "properties": {},
+                  "dataAttrType": "ELEMENT",
+                  "relationType": "ONETOONE"
+                }
+              ],
+              "services": [
+                {
+                  "name": "Create",
+                  "type": "CRUD_CREATE",
+                  "enabled": true,
+                  "mrRequest": false,
+                  "mrResponse": false,
+                  "customQuery": "",
+                  "bindVariables": "",
+                  "beanName": ""
+                },
+                {
+                  "name": "Update",
+                  "type": "CRUD_UPDATE",
+                  "enabled": false,
+                  "mrRequest": false,
+                  "mrResponse": false,
+                  "customQuery": "",
+                  "bindVariables": "",
+                  "beanName": ""
+                },
+                {
+                  "name": "Query",
+                  "type": "CRUD_QUERY",
+                  "enabled": true,
+                  "mrRequest": false,
+                  "mrResponse": false,
+                  "customQuery": "",
+                  "bindVariables": "",
+                  "beanName": ""
+                },
+                {
+                  "name": "Delete",
+                  "type": "CRUD_DELETE",
+                  "enabled": true,
+                  "mrRequest": false,
+                  "mrResponse": false,
+                  "customQuery": "",
+                  "bindVariables": "",
+                  "beanName": ""
+                },
+                {
+                  "name": "Summary",
+                  "type": "CUSTOMQUERY",
+                  "enabled": true,
+                  "mrRequest": false,
+                  "mrResponse": false,
+                  "customQuery": "",
+                  "bindVariables": "",
+                  "beanName": ""
+                }
+              ],
+              "dataStores": [
+                {
+                  "dataStoreName": "cust_personal_02",
+                  "dataStoreId": "custPersonal",
+                  "parentDataStoreId": "custPersonal"
+                }
+              ],
+              "relationType": "ONETOONE"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "pcDt",
+              "name": "custDoB",
+              "desc": "Attribute",
+              "inherited": false,
+              "properties": {
+                "name": "pcDt",
+                "dataType": "DATE",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxVal": "",
+                "minVal": "",
+                "maxDecimals": "",
+                "maxDate": "2030-12-31 ",
+                "minDate": "1900-01-01 ",
+                "mandatory": "",
+                "timeBound": "",
+                "type": "BIZATRPROPCLASS",
+                "childs": [],
+                "tbId": "wt_tab_273_"
+              },
+              "superType": "BIZATRPROPCLASS",
+              "dataStoreId": "custPersonal",
+              "dataStoreColId": "DOB"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "pcShortCode",
+              "name": "custProfession",
+              "desc": "Attribute",
+              "inherited": false,
+              "properties": {
+                "name": "pcShortCode",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxVal": "",
+                "minVal": "",
+                "maxDecimals": "",
+                "maxDate": "",
+                "minDate": "",
+                "mandatory": "",
+                "timeBound": "",
+                "type": "BIZATRPROPCLASS",
+                "childs": [],
+                "tbId": "wt_tab_282_"
+              },
+              "superType": "BIZATRPROPCLASS",
+              "dataStoreId": "custPersonal",
+              "dataStoreColId": "PROFESSION"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "pcShortCode",
+              "name": "gender",
+              "desc": "Attribute",
+              "inherited": false,
+              "properties": {
+                "name": "pcShortCode",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxVal": "",
+                "minVal": "",
+                "maxDecimals": "",
+                "maxDate": "",
+                "minDate": "",
+                "mandatory": "",
+                "timeBound": "",
+                "type": "BIZATRPROPCLASS",
+                "childs": [],
+                "tbId": "wt_tab_282_"
+              },
+              "superType": "BIZATRPROPCLASS",
+              "dataStoreId": "custPersonal",
+              "dataStoreColId": "GENDER"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "pcShortCode",
+              "name": "maritalStatus",
+              "desc": "Attribute",
+              "inherited": false,
+              "properties": {
+                "name": "pcShortCode",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxVal": "",
+                "minVal": "",
+                "maxDecimals": "",
+                "maxDate": "",
+                "minDate": "",
+                "mandatory": "",
+                "timeBound": "",
+                "type": "BIZATRPROPCLASS",
+                "childs": [],
+                "tbId": "wt_tab_282_"
+              },
+              "superType": "BIZATRPROPCLASS",
+              "dataStoreId": "custPersonal",
+              "dataStoreColId": "MARITAL_STATUS"
+            }
+          ],
+          "services": [
+            {
+              "name": "Create",
+              "type": "CRUD_CREATE",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Update",
+              "type": "CRUD_UPDATE",
+              "enabled": false,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Query",
+              "type": "CRUD_QUERY",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Delete",
+              "type": "CRUD_DELETE",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Summary",
+              "type": "CUSTOMQUERY",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            }
+          ],
+          "dataStores": [
+            {
+              "dataStoreName": "cust_personal_02",
+              "dataStoreId": "custPersonal",
+              "parentDataStoreId": "custMast",
+              "relationWithParent": [
+                {
+                  "column": "CUST_PK",
+                  "parentColumn": "CUST_NUMBER",
+                  "parentDataStoreId": "custMast"
+                }
+              ],
+              "propagationColumns": [
+                {
+                  "toColumn": "CUST_PK",
+                  "fromColumn": "CUST_NUMBER"
+                }
+              ]
+            }
+          ],
+          "relationType": "ONETOONE",
+          "superType": "NONE"
+        },
+        {
+          "type": "DATAATTRIBUTE",
+          "superName": "baAddr",
+          "name": "addresses",
+          "desc": "Attribute",
+          "inherited": false,
+          "properties": {},
+          "superType": "BIZATTRIBUTE",
+          "childs": [
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "",
+              "superType": "NONE",
+              "name": "addrLn1",
+              "inherited": true,
+              "properties": {
+                "name": "",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "50",
+                "minLen": "",
+                "strValidationType": "NONE",
+                "regExprsn": "",
+                "maxDate": "",
+                "minDate": ""
+              },
+              "dataAttrType": "ELEMENT",
+              "relationType": "ONETOONE"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "",
+              "superType": "NONE",
+              "name": "addrLn2",
+              "inherited": true,
+              "properties": {
+                "name": "",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "50",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxDate": "",
+                "minDate": ""
+              },
+              "dataAttrType": "ELEMENT",
+              "relationType": "ONETOONE"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "",
+              "superType": "NONE",
+              "name": "addrLn3",
+              "inherited": true,
+              "properties": {
+                "name": "",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "50",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxDate": "",
+                "minDate": ""
+              },
+              "dataAttrType": "ELEMENT",
+              "relationType": "ONETOONE"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "",
+              "superType": "NONE",
+              "name": "city",
+              "inherited": true,
+              "properties": {
+                "name": "",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "30",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxDate": "",
+                "minDate": ""
+              },
+              "dataAttrType": "ELEMENT",
+              "relationType": "ONETOONE"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "",
+              "superType": "NONE",
+              "name": "state",
+              "inherited": true,
+              "properties": {
+                "name": "",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "30",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxDate": "",
+                "minDate": ""
+              },
+              "dataAttrType": "ELEMENT",
+              "relationType": "ONETOONE"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "",
+              "superType": "NONE",
+              "name": "country",
+              "inherited": true,
+              "properties": {
+                "name": "",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "30",
+                "minLen": "",
+                "strValidationType": "",
+                "regExprsn": "",
+                "maxDate": "",
+                "minDate": ""
+              },
+              "dataAttrType": "ELEMENT",
+              "relationType": "ONETOONE"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "",
+              "superType": "NONE",
+              "name": "zipCode",
+              "inherited": true,
+              "properties": {
+                "name": "",
+                "dataType": "STRING",
+                "desc": "",
+                "smartType": "",
+                "drvType": "",
+                "customPattern": "",
+                "maxLen": "10",
+                "minLen": "",
+                "strValidationType": "Alpha Numeric",
+                "regExprsn": "",
+                "maxDate": "",
+                "minDate": ""
+              },
+              "dataAttrType": "ELEMENT",
+              "relationType": "ONETOONE"
+            },
+            {
+              "type": "DATAATTRIBUTE",
+              "superName": "pcShortCode",
+              "superType": "BIZATRPROPCLASS",
+              "name": "addrType",
+              "inherited": true,
+              "properties": {},
+              "dataAttrType": "ELEMENT",
+              "relationType": "ONETOONE"
+            }
+          ],
+          "services": [
+            {
+              "name": "Create",
+              "type": "CRUD_CREATE",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Update",
+              "type": "CRUD_UPDATE",
+              "enabled": false,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Query",
+              "type": "CRUD_QUERY",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Delete",
+              "type": "CRUD_DELETE",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            },
+            {
+              "name": "Summary",
+              "type": "CUSTOMQUERY",
+              "enabled": true,
+              "mrRequest": false,
+              "mrResponse": false,
+              "customQuery": "",
+              "bindVariables": "",
+              "beanName": ""
+            }
+          ],
+          "dataStores": [
+            {
+              "dataStoreName": "cust_addresses_02",
+              "dataStoreId": "custAddr",
+              "parentDataStoreId": "custMast",
+              "relationWithParent": [
+                {
+                  "column": "CUST_PK",
+                  "parentColumn": "CUST_NUMBER",
+                  "parentDataStoreId": "custMast"
+                }
+              ],
+              "propagationColumns": [
+                {
+                  "toColumn": "CUST_PK",
+                  "fromColumn": "CUST_NUMBER"
+                }
+              ]
+            }
+          ],
+          "relationType": "ONETOMANY"
+        },
+        {
+          "type": "DATAATTRIBUTE",
+          "superName": "pcPk",
+          "name": "custNumber",
+          "desc": "Attribute",
+          "inherited": false,
+          "properties": {
+            "auditTrail": "",
+            "tempSave": "",
+            "timeBound": "",
+            "name": "pcPk",
+            "dataType": "INTEGER",
+            "desc": "Technical Primary Key",
+            "smartType": "",
+            "drvType": "INPUT",
+            "customPattern": "",
+            "maxLen": "",
+            "minLen": "",
+            "strValidationType": "",
+            "regExprsn": "",
+            "maxVal": 999999,
+            "minVal": 0,
+            "maxDecimals": "",
+            "maxDate": "",
+            "minDate": "",
+            "mandatory": "",
+            "type": "BIZATRPROPCLASS",
+            "childs": [],
+            "tbId": "wt_tab_280_"
+          },
+          "superType": "BIZATRPROPCLASS",
+          "dataStoreId": "custMast",
+          "dataStoreColId": "CUST_NUMBER"
+        }
+      ],
+      "services": [
+        {
+          "name": "Create",
+          "type": "CRUD_CREATE",
+          "enabled": true,
+          "mrRequest": false,
+          "mrResponse": false,
+          "customQuery": "",
+          "bindVariables": "",
+          "beanName": ""
+        },
+        {
+          "name": "Update",
+          "type": "CRUD_UPDATE",
+          "enabled": true,
+          "mrRequest": false,
+          "mrResponse": false,
+          "customQuery": "",
+          "bindVariables": "",
+          "beanName": ""
+        },
+        {
+          "name": "Query",
+          "type": "CRUD_QUERY",
+          "enabled": true,
+          "mrRequest": false,
+          "mrResponse": false,
+          "customQuery": "",
+          "bindVariables": "",
+          "beanName": ""
+        },
+        {
+          "name": "Delete",
+          "type": "CRUD_DELETE",
+          "enabled": true,
+          "mrRequest": false,
+          "mrResponse": false,
+          "customQuery": "",
+          "bindVariables": "",
+          "beanName": ""
+        },
+        {
+          "name": "Summary",
+          "type": "CUSTOMQUERY",
+          "enabled": true,
+          "mrRequest": false,
+          "mrResponse": false,
+          "customQuery": "",
+          "bindVariables": "",
+          "beanName": ""
+        }
+      ],
+      "dataStores": [
+        {
+          "dataStoreName": "cust_mast_02",
+          "dataStoreId": "custMast",
+          "parentDataStoreId": "custMast",
+          "relationWithParent": [
+            {
+              "column": "CUST_NUMBER",
+              "parentColumn": "CUST_NUMBER",
+              "parentDataStoreId": "custMast"
+            }
+          ],
+          "propagationColumns": []
+        }
+      ],
+      "relationType": "ONETOONE"
+    }
+  ],
+  "services": [
+    {
+      "name": "Create",
+      "type": "CRUD_CREATE",
+      "enabled": true,
+      "mrRequest": false,
+      "mrResponse": false,
+      "customQuery": "",
+      "bindVariables": "",
+      "beanName": ""
+    },
+    {
+      "name": "Update",
+      "type": "CRUD_UPDATE",
+      "enabled": false,
+      "mrRequest": false,
+      "mrResponse": false,
+      "customQuery": "",
+      "bindVariables": "",
+      "beanName": ""
+    },
+    {
+      "name": "Query",
+      "type": "CRUD_QUERY",
+      "enabled": true,
+      "mrRequest": false,
+      "mrResponse": false,
+      "customQuery": "",
+      "bindVariables": "",
+      "beanName": ""
+    },
+    {
+      "name": "Delete",
+      "type": "CRUD_DELETE",
+      "enabled": true,
+      "mrRequest": false,
+      "mrResponse": false,
+      "customQuery": "",
+      "bindVariables": "",
+      "beanName": ""
+    },
+    {
+      "name": "Summary",
+      "type": "CUSTOMQUERY",
+      "enabled": true,
+      "mrRequest": false,
+      "mrResponse": false,
+      "customQuery": "",
+      "bindVariables": "",
+      "beanName": ""
+    }
+  ],
+  "tbId": "wt_tab_046_",
+  "desc": "",
+  "superType": "NONE",
+  "superName": "",
+  "propClassName": "",
+  "dbClass": "",
+  "dstype": "",
+  "relationType": "ONETOONE",
+  "dataStoreId": "",
+  "dataStoreColId": "",
+  "inherited": "",
+  "properties": {},
+  "dataStores": [],
+  "dynamic": {
+    "lovids": [
+      {
+        "text": "Select LOV",
+        "value": ""
+      },
+      {
+        "text": "mmm",
+        "value": "mmm"
+      }
+    ]
+  },
+  "tempSave": "",
+  "tempSavePersistenceType": "SEPERATEDATASTORES",
+  "auditTrail": "",
+  "timeBound": ""
+}

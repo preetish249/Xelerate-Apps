@@ -1,0 +1,29 @@
+{
+  "name": "mmm",
+  "type": "LOV",
+  "childs": [],
+  "tbId": "wt_tab_035_",
+  "dynamic": {
+    "sourceEntities": [
+      {
+        "text": "Select Entity",
+        "value": ""
+      },
+      {
+        "text": "beCustomer",
+        "value": "beCustomer"
+      }
+    ]
+  },
+  "lovType": "STATIC",
+  "queryStatement": "",
+  "defaultFilter": "",
+  "sourceEntity": "",
+  "dynamicFilter": "",
+  "staticoptions": [
+    {
+      "desc": "USER_ID",
+      "value": "A"
+    }
+  ]
+}

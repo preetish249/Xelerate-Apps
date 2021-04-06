@@ -1,0 +1,16 @@
+{
+  "type": "MESSAGES",
+  "name": "MESSAGES",
+  "messages": [
+    {
+      "msgId": "CO-CUST-001",
+      "msgLang": "en",
+      "msgDesc": "Customer Id is mandatory"
+    },
+    {
+      "msgId": "CO-CUST-002",
+      "msgLang": "en",
+      "msgDesc": "Successfully saved the customer details"
+    }
+  ]
+}

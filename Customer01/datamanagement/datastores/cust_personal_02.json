@@ -1,0 +1,73 @@
+{
+  "name": "cust_personal_02",
+  "type": "DATASTORE",
+  "tbId": "wt_tab_328_",
+  "columns": [
+    {
+      "name": "CUST_PK",
+      "dataType": "INTEGER",
+      "length": "",
+      "pkColumn": true,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "TITLE",
+      "length": 10,
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "FIRST_NAME",
+      "length": 50,
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "MIDDLE_NAME",
+      "length": 50,
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": false,
+      "defValue": ""
+    },
+    {
+      "name": "LAST_NAME",
+      "length": 50,
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "DOB",
+      "dataType": "DATE",
+      "length": null,
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "dataType": "STRING",
+      "name": "GENDER",
+      "length": 10,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "name": "MARITAL_STATUS",
+      "length": 10,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "name": "PROFESSION",
+      "length": 10
+    }
+  ],
+  "constraints": []
+}

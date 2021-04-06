@@ -1,0 +1,65 @@
+{
+  "name": "baPersonName",
+  "type": "BIZATTRIBUTE",
+  "childs": [
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "pcShortCode",
+      "superType": "BIZATRPROPCLASS",
+      "name": "personTitle",
+      "inherited": true,
+      "properties": {},
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "pcShortDesc",
+      "superType": "BIZATRPROPCLASS",
+      "name": "firstName",
+      "inherited": true,
+      "properties": {},
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "pcShortDesc",
+      "superType": "BIZATRPROPCLASS",
+      "name": "middleName",
+      "inherited": true,
+      "properties": {},
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    },
+    {
+      "type": "DATAATTRIBUTE",
+      "superName": "pcShortDesc",
+      "superType": "BIZATRPROPCLASS",
+      "name": "lastName",
+      "inherited": true,
+      "properties": {},
+      "dataAttrType": "ELEMENT",
+      "relationType": "ONETOONE"
+    }
+  ],
+  "tbId": "wt_tab_101_",
+  "desc": "",
+  "superType": "NONE",
+  "superName": "",
+  "relationType": "ONETOONE",
+  "properties": {},
+  "dynamic": {
+    "lovids": [
+      {
+        "text": "Select LOV",
+        "value": ""
+      },
+      {
+        "text": "mmm",
+        "value": "mmm"
+      }
+    ]
+  },
+  "dataAttrType": "NODE"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "pcDtTs",
+  "type": "BIZATRPROPCLASS",
+  "childs": [],
+  "tbId": "wt_tab_060_",
+  "dataType": "DATE",
+  "desc": "",
+  "smartType": "",
+  "drvType": "",
+  "customPattern": "",
+  "strValidationType": "",
+  "regExprsn": "",
+  "maxDate": "2044-12-31 ",
+  "minDate": "1900-02-01 ",
+  "mandatory": "",
+  "timeBound": "",
+  "maxVal": "",
+  "maxDecimals": "",
+  "minVal": "",
+  "dynamic": {},
+  "properties": {
+    "minLen": "",
+    "maxLen": "",
+    "strValidationType": "",
+    "lovId": "",
+    "minVal": "",
+    "maxVal": "",
+    "maxDecimals": "",
+    "minDate": "1900-01-01 ",
+    "maxDate": "2030-12-31 ",
+    "options": [],
+    "lovids": [
+      {
+        "text": "Select LOV",
+        "value": ""
+      },
+      {
+        "text": "NewLov",
+        "value": "NewLov"
+      }
+    ],
+    "dataType": "DATE"
+  },
+  "pattern": ""
+}
